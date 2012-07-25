@@ -1,0 +1,70 @@
+@CHARSET "ISO-8859-1";
+
+table.cal, .cal th, .cal, .cal_date td{
+	border: 1px green solid;
+	border-collapse: collapse;
+	padding: 0px;
+}
+
+.cal th {
+font-weight: bold;
+background-color: #99CCFF;
+padding: 0px;
+}
+
+.cal_date {
+border: 1px green solid;
+padding: 0px;
+}
+
+.cal_date_div {
+ background-color: #99ff99;
+ padding: 1px;
+}
+
+.cal_date_div_view_schedule{
+	height: 35px;
+	/*background: goldenrod;*/
+	background: lightgrey;
+	text-align: center;
+	font-size: 140%;
+	}
+
+.cal_job_div{
+padding: 3px;
+
+}
+
+.cal_job_div_wrapper:hover {
+cursor: pointer;
+
+}
+
+.cal_job_div_wrapper_team:hover {
+cursor: pointer;
+
+}
+
+.cal_job_div_wrapper_team a{
+	text-decoration: none;
+	color: black;
+	}
+
+/*
+	onhover events details:
+*/
+.eventBody{
+	background: lightgrey;
+}
+
+.eventHeader{
+	background: gray;
+	font-weight: bold;
+}
+
+/*
+	the width of the form in the dialog window
+*/
+table.form {
+	width: 500px;
+}

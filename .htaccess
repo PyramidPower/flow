@@ -1,0 +1,23 @@
+Options +FollowSymLinks
+
+#To have Expires support (and apache running with this .htaccess), uncomment
+#LoadModule expires_module modules/mod_expires.so
+#line in /apache/conf/httpd.conf:
+
+
+<FilesMatch "\.(manifest)$">
+	ExpiresActive On
+	ExpiresDefault "access"
+</FilesMatch>
+
+# Add manifest type for cache manifest
+AddType text/cache-manifest .manifest
+
+# Turn on the RewriteEngine
+RewriteEngine On
+
+#  Rules
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* index.php
+

@@ -1,0 +1,11 @@
+[[title|Managing PDF Forms]]
+
+This module allows you to upload specially prepared PDF forms which will be inserted in the appropriate areas of 
+Flow for download with pre-filled data.
+
+[[help|admin/form/newForm|Uploading a New Form]]
+
+[[help|admin/form/editForm|Editing a Form]]
+
+[[help|admin/form/deleteForm|Deleting a Form]]
+

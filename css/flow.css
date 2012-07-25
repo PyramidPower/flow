@@ -1,0 +1,351 @@
+/*
+$Id: flow.css 553 2010-09-23 01:18:57Z carsten@pyramidpower.com.au $
+Copyright 2010 Pyramid Power
+*/
+.attachment {
+    float: left;
+    margin: 20px;
+    padding: 8px;
+    width: 250px;
+    border: 1px solid silver;
+}
+
+tr.disabled-row td {
+	font-style:italic;
+	color: red;
+}
+
+tr.enabled-row td {
+	font-weight: bold;
+}
+
+.fieldtitle {
+    font-weight: bold;
+    background-color: #eee;
+}
+.fieldvalue {
+    background-color: #eee;
+}
+input[readonly] {
+    background: buttonface;
+    font-weight: bold;
+}
+
+.error {
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid red;
+    color: red;
+    font-weight: bold;
+    width: 80%;
+}
+
+.createdby {
+    font-size: 9px;
+    color: #888;
+    text-align: right;
+}
+
+.box {
+    margin: 8px;
+    border: 2px solid #f47b2b;
+}
+
+.boxtitle {
+    text-align: center;
+    background: #fcc172;
+    border-bottom: 2px solid #f47b2b;
+}
+
+#colorbox h1 {
+    text-align: center;
+    font-size: 14px;
+}
+
+.handler-box {
+    margin: 8px;
+    border: 2px solid #f47b2b;
+    float:left;
+}
+
+.handler-title {
+    text-align: center;
+    background: #fcc172;
+    border-bottom: 2px solid #f47b2b;
+}
+.msg {
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid blue;
+    color: blue;
+    font-weight: bold;
+    width: 80%
+}
+
+.category-trail {
+    margin-bottom: 12px;
+}
+
+form table.form-wrapper,
+table.form {
+    border: 2px solid #006f51;
+    border-collapse: collapse;
+    background-color: #eee;
+}
+
+form table.form-section {
+    border-collapse: collapse;
+}
+form table.form-section td,
+table.form td
+{
+    padding: 10px;
+}
+form table.form-section tr,
+table.form tr
+{
+    border-bottom: 1px solid #ddd;
+}
+
+
+form table.form-wrapper td.section,
+table.form td.section{
+    border-top: 2px solid #006f51;
+    border-bottom: 2px solid #006f51;
+    background: #72c267;
+}
+
+
+.news-item {
+    width:80%;
+    margin-bottom: 15px;
+}
+
+.news-header {
+    font-weight: bold;
+    font-size: 12pt;
+    border-bottom: 1px solid silver;
+}
+
+.news-header a {
+    text-decoration: none;
+    color: black;
+}
+
+.news-header a:hover {
+    text-decoration: none;
+    color: #006f51;
+}
+
+.news-body {
+    padding: 8px;
+}
+
+.news-teaser {
+    font-style: italic;
+    font-size: 9pt;
+    padding-bottom: 10px;
+}
+.news-footer {
+    text-align: right;
+    width: 100%;
+    font-size: 7pt;
+    color: grey;
+    font-style: italic;
+
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: Verdana;
+    font-size: 10pt;
+}
+
+.tab-body {
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid #006f51;
+}
+
+#body {
+    margin: 8px;
+}
+h1 {
+    font-size: 1.8em;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+.content-header {
+    font-size: 1.4em;
+}
+
+#top-nav ul.navlinks{
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    float: left;
+}
+
+#top-nav .navlinks li {
+    float:left;
+    font-size: 1em;
+}
+
+.left-nav ul.navlinks {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 5px;
+    list-style: none;
+    width: 100%;
+}
+
+.left-nav .navlinks li {
+    line-height: 30px;
+    font-size: 1em;
+    width: 100%;
+/*  new 09-09-2010 - as menuBox() elements don't have href tag cursor still like 'I' 
+to make it like for the rest of the links the line is added*/
+    cursor: pointer;                                       
+}
+
+.action-list ul {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding:5px;
+    list-style: none;
+}
+
+.action-list li {
+    line-height: 30px;
+    font-size: 1em;
+}
+
+#top-nav {
+    width: 100%;
+    height: 36px;
+    background: #f47b2b;
+    padding: 4px 0;
+}
+
+.navlinks a,
+#top-nav a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#top-nav a {
+  border: 2px solid #f47b2b;   /* 09-09-2010 serg: to prevent items from shifting right on-hove*/
+}
+
+#top-nav a:hover {
+    border: 2px solid #fcc172;
+}
+
+.navlinks a:hover{
+    border: 2px solid #f47b2b;
+    width: 100%;
+}
+
+.tab-head a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    border: 2px solid #006f51;
+}
+.tab-head a.active {
+    background: #006f51;
+    color: white;
+    font-weight: bold;
+}
+
+.tab-head a:hover {
+    background: #72c267;
+}
+
+#footer{
+    width: 100%;
+    background: #f47b2b;
+    color: #fcc172;
+    text-align: center;
+    padding: 4px 0;
+}
+
+
+#footer a{
+    color: #fcc172;
+}
+
+.innertube{
+    margin: 10px; /*Margins for inner DIV inside each column (to provide padding)*/
+    margin-top: 0;
+}
+
+.search-heading {
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.search-title {
+    font-weight: bold;
+}
+.search-index {
+    font-weight: bold;
+    font-size: 12pt;
+    padding: 5px;
+    color: grey;
+}
+.search-result {
+    padding: 6px;
+}
+
+#simple-search {
+    float: right;
+}
+/*
+ * =============================== Layout END ========================
+*/
+
+/**************** Vehicle Database CSS *********************/
+
+.rego-renew {
+    color: #f47b2b;
+}
+
+.rego-alert {
+    color:red;
+    font-size: 16px;
+}
+
+.policy-renew {
+    font-size: 120%;
+    color: highlight;
+}
+
+.policy-alert {
+    font-size:140%;
+    color: blue;
+}
+
+/*************** Wiki CSS *****************************/
+
+.textile-markup {
+    /*float:left;*/
+	font-size:8pt;
+	margin: 8px;
+}
